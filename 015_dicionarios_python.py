@@ -1,12 +1,20 @@
-print()
 print('Sistema de perguntas e respostas com dicionários em Python')
-print('Informe qual é a resposta, ex: 1 + 1 = 4, item [a]')
+
+"""
+# Exemplo
+Pergunta 1: Quanto é 1 + 1?
+Respostas:
+[a]: 2
+[b]: 4
+[c]: 5
+Sua resposta: a
+"""
 
 perguntas = {
     'Pergunta 1': {
-        'pergunta': 'Quanto é 2+2? ',
+        'pergunta': 'Quanto é 2 + 2? ',
         'respostas': {
-            'a': '1',
+            'a': '2',
             'b': '4',
             'c': '5',
         },
